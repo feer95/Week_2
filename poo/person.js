@@ -42,4 +42,4 @@ console.log(persona1.edad(2023));
 persona1.printAll();
 persona1.printHobbies();
 
-module.export = Person;
+module.exports = Person;

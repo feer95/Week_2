@@ -1,4 +1,4 @@
-const Person = require("./person")
+const Person = require("./person");
 
 let personaPrueba = new Person("Alvaro", "Martin", 190, 95, 1980, ["Nadar", "Comprar", "Dormir"]);
 
