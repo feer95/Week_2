@@ -53,7 +53,7 @@ export class Book {
 
     // To string()
 
-    tostring(): string {
+    toString(): string {
         return `Title: ${this.title}\nNumber of Pages: ${this.nPages}\nISBN : ${this.isbn}\nAuthor : ${this.author}\nEditorial : ${this.editorial}`;
     }
 }
