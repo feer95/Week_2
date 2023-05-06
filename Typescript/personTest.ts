@@ -1,7 +1,5 @@
 
 import { Person } from "./person";
-console.log('Inicio de personTest.ts'); // mensaje de depuración
-
 
 
 const person1 = new Person("Juan", 50, "Calle 125");

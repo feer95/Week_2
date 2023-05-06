@@ -1,5 +1,4 @@
 export class Person {
-    // Parámetros
         // Públicos
     public name : string;
     public age : number;
