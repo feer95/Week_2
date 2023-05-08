@@ -23,6 +23,27 @@ export class Vector {
         }
         return suma
     }
+    subs(v1: Vector ): Vector {
+        let res = new Vector (this.elements.length, 0);
+        for (let i = 0; i < this.elements.length; i++) {
+            res.elements[i] = this.elements[i] - v1.elements[i]  
+        }
+        return res
+    }
+    mult(v1: Vector ): Vector {
+        let multi = new Vector (this.elements.length, 0);
+        for (let i = 0; i < this.elements.length; i++) {
+            multi.elements[i] = this.elements[i] * v1.elements[i]  
+        }
+        return multi
+    }
+    multNumber(n: number ): Vector {
+        let multN = new Vector (this.elements.length, 0);
+        for (let i = 0; i < this.elements.length; i++) {
+            multN.elements[i] = this.elements[i] * n  
+        }
+        return multN
+    }
 }
 
 let vector = new Vector(5, 10);
